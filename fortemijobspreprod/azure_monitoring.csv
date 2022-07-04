@@ -1,0 +1,31 @@
+Target Name,Alert Name,Resource Type,Metric,Metric Display Name,Unit,Aggregation Type,Description,Enable for monitoring,Tag Name,Threshold,Operator,Eval Frequency,Window Size,Aggregation Time,Alert Description,Severity
+fortemijobspreprod,mitieblob-sasauthorizationerror,Microsoft.Storage/blob,Transactions,mitieblob-sasauthorizationerror,,Total,Total Transactions,yes,,5,GreaterThan,PT1M,PT5M,Total,,3
+fortemijobspreprod,mitieblob-sasclientothererror,Microsoft.Storage/blob,Transactions,mitieblob-sasclientothererror,,Total,Total Transactions,yes,,20,GreaterThan,PT1M,PT5M,Total,,3
+fortemijobspreprod,mitieblob-sasclienttimeouterror,Microsoft.Storage/blob,Transactions,mitieblob-sasclienttimeouterror,,Total,Total Transactions,yes,,5,GreaterThan,PT1M,PT5M,Total,,3
+fortemijobspreprod,mitieblob-sasnetworkerror,Microsoft.Storage/blob,Transactions,mitieblob-sasnetworkerror,,Total,Total Transactions,yes,,5,GreaterThan,PT1M,PT5M,Total,,3
+fortemijobspreprod,mitieblob-sasserverothererror,Microsoft.Storage/blob,Transactions,mitieblob-sasserverothererror,,Total,Total Transactions,yes,,5,GreaterThan,PT1M,PT5M,Total,,3
+fortemijobspreprod,mitieblob-sasservertimeouterror,Microsoft.Storage/blob,Transactions,mitieblob-sasservertimeouterror,,Total,Total Transactions,yes,,5,GreaterThan,PT1M,PT5M,Total,,3
+fortemijobspreprod,mitieblob-sassuccess,Microsoft.Storage/blob,Transactions,mitieblob-sassuccess,,Total,Total Transactions,yes,,80,GreaterThan,PT1M,PT5M,Total,,3
+fortemijobspreprod,mitieblob-serverothererror,Microsoft.Storage/blob,Transactions,mitieblob-serverothererror,,Total,Total Transactions,yes,,5,GreaterThan,PT1M,PT5M,Total,,3
+fortemijobspreprod,mitieblob-servertimeouterror,Microsoft.Storage/blob,Transactions,mitieblob-servertimeouterror,,Total,Total Transactions,yes,,5,GreaterThan,PT1M,PT5M,Total,,3
+fortemijobspreprod,mitieblob-success,Microsoft.Storage/blob,Transactions,mitieblob-success,,Total,Total Transactions,yes,,0,LessThan,PT1M,PT5M,Total,,3
+fortemijobspreprod,mitieblob-totalbillablerequest,Microsoft.Storage/blob,Transactions,mitieblob-totalbillablerequest,,Total,Total Transactions,yes,,0,LessThan,PT1M,PT5M,Total,,3
+fortemijobspreprod,MitieBlob-TotalEgress,Microsoft.Storage/blob,Egress,MitieBlob-TotalEgress,,Total,Egress,yes,,3000000000,GreaterThan,PT1M,PT5M,Total,,3
+fortemijobspreprod,MitieBlob-TotalIngress,Microsoft.Storage/blob,Ingress,MitieBlob-TotalIngress,,Total,Ingress,yes,,1000000000,GreaterThan,PT1M,PT5M,Total,,3
+fortemijobspreprod,mitieblob-totalrequest,Microsoft.Storage/blob,Transactions,mitieblob-totalrequest,,Total,Total Transactions,yes,,35000,GreaterThan,PT1M,PT5M,Total,,3
+fortemijobspreprod,mitiestorage-aauthorizationerror,Microsoft.Storage/blob,Transactions,mitiestorage-aclientothererror,,Total,Total Transactions,yes,,1,GreaterThan,PT1M,PT5M,Total,,3
+fortemijobspreprod,mitiestorage-aclientothererror,Microsoft.Storage/blob,Transactions,mitiestorage-aclientothererror,,Total,Total Transactions,yes,,1,GreaterThan,PT1M,PT5M,Total,,3
+fortemijobspreprod,mitiestorage-aclienttimeouterror,Microsoft.Storage/blob,Transactions,mitiestorage-aclienttimeouterror,,Total,Total Transactions,yes,,1,GreaterThan,PT1M,PT5M,Total,,3
+fortemijobspreprod,mitiestorage-anetworkerror,Microsoft.Storage/blob,Transactions,mitiestorage-anetworkerror,,Total,Total Transactions,yes,,1,GreaterThan,PT1M,PT5M,Total,,3
+fortemijobspreprod,mitiestorage-aserverothererror,Microsoft.Storage/blob,Transactions,mitiestorage-aserverothererror,,Total,Total Transactions,yes,,1,GreaterThan,PT1M,PT5M,Total,,3
+fortemijobspreprod,mitiestorage-aservertimeouterror,Microsoft.Storage/blob,Transactions,mitiestorage-aservertimeouterror,,Total,Total Transactions,yes,,1,GreaterThan,PT1M,PT5M,Total,,3
+fortemijobspreprod,mitiestorage-asuccess,Microsoft.Storage/blob,Transactions,mitiestorage-asuccess,,Total,Total Transactions,yes,,0,LessThan,PT1M,PT5M,Total,,3
+fortemijobspreprod,mitiestorage-authorizationerror,Microsoft.Storage/blob,Transactions,mitiestorage-authorizationerror,,Total,Total Transactions,yes,,1,GreaterThan,PT1M,PT5M,Total,,3
+fortemijobspreprod,MitieStorage-Availability,Microsoft.Storage/blob,Availability,MitieStorage-Availability,,Average,Availability,yes,,100,LessThan,PT1M,PT5M,Total,,3
+fortemijobspreprod,MitieStorage-AverageE2ELatency,Microsoft.Storage/blob,SuccessE2ELatency,MitieStorage-AverageE2ELatency,,Average,SuccessE2ELatency,yes,,5000,GreaterThan,PT1M,PT5M,Total,,3
+fortemijobspreprod,MitieStorage-AvgServerLatency,Microsoft.Storage/blob,ContainerCount,MitieStorage-AvgServerLatency,,Average,ContainerCount,yes,,120,GreaterThan,PT1M,PT5M,Total,,3
+fortemijobspreprod,mitiestorage-clientothererror,Microsoft.Storage/blob,Transactions,mitiestorage-clientothererror,,Total,Total Transactions,yes,,7500,GreaterThan,PT1M,PT5M,Total,,3
+fortemijobspreprod,mitiestorage-clienttimeouterror,Microsoft.Storage/blob,Transactions,mitiestorage-clienttimeouterror,,Total,Total Transactions,yes,,1,GreaterThan,PT1M,PT5M,Total,,3
+fortemijobspreprod,MitieStorage-ContainerCount,Microsoft.Storage/blob,ContainerCount,MitieStorage-ContainerCount,,Total,ContainerCount,yes,,10,LessThan,PT1M,PT5M,Total,,3
+fortemijobspreprod,mitiestorage-networkerror,Microsoft.Storage/blob,Transactions,mitiestorage-networkerror,,Total,Total Transactions,yes,,6,GreaterThan,PT1M,PT5M,Total,,3
+fortemijobspreprod,MitieStorage-ObjectCount,Microsoft.Storage/blob,BlobCount,MitieStorage-ObjectCount,,Average,Blob Count,yes,,500,LessThan,PT1M,PT5M,Total,,3

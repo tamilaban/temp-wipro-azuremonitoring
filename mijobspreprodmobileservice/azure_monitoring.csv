@@ -1,0 +1,13 @@
+Target Name,Alert Name,Resource Type,Metric,Metric Display Name,Unit,Aggregation Type,Description,Enable for monitoring,Tag Name,Threshold,Operator,Eval Frequency,Window Size,Aggregation Time,Alert Description,Severity
+mijobspreprodmobileservice,HTTP Errors on Mobile App,Microsoft.Web/sites,Http5xx,HTPP 5xx,,Total,HTTP Errors on Mobile App,yes,,1,GreaterThan,PT1M,PT5M,Count,,3
+mijobspreprodmobileservice,Mobile Service Http Error,Microsoft.Web/sites,Http5xx,HTPP 5xx,,Total,HTTP Errors on Mobile App,yes,,1,GreaterThan,PT1M,PT5M,Count,,3
+mijobspreprodmobileservice,Mobile service Memory greater than 600,Microsoft.Web/sites,MemoryWorkingSet,Memory Working Set,B,Average,Average Memory,yes,,600,GreaterThan,PT1M,PT5M,Count,,3
+mijobspreprodmobileservice,mobile_Average Memory,Microsoft.Web/sites,AverageMemoryWorkingSet,Average Memory,B,Average,Average Memory,yes,,409715200,GreaterThan,PT1M,PT5M,Count,,3
+mijobspreprodmobileservice,mobile_Average Response Time,Microsoft.Web/sites,AverageResponseTime,Average Response Time,Seconds,Average,Average Response Time,yes,,10,GreaterThan,PT1M,PT5M,Count,,3
+mijobspreprodmobileservice,mobile_CPU Time,Microsoft.Web/sites,CpuTime,CPU Time,Seconds,Total,CPU Time,yes,,300,GreaterThan,PT1M,PT5M,Count,,3
+mijobspreprodmobileservice,mobile_Data In,Microsoft.Web/sites,BytesReceived,Data In,B,Total,BytesReceived,yes,,10485760,GreaterThan,PT1M,PT5M,Count,,3
+mijobspreprodmobileservice,mobile_Data Out,Microsoft.Web/sites,BytesSent,Data Out,B,Total,BytesSent,yes,,50485760,GreaterThan,PT1M,PT5M,Count,,3
+mijobspreprodmobileservice,mobile_HTTP 2xx,Microsoft.Web/sites,Http2xx,HTTP 2xx,,Total,HTTP 2xx,yes,,0,LessThanOrEqual,PT1M,PT5M,Count,,3
+mijobspreprodmobileservice,mobile_HTTP 4xx,Microsoft.Web/sites,Http3xx,HTTP3xx,,Total,HTTP 3xx,yes,,50,GreaterThan,PT1M,PT5M,Count,,3
+mijobspreprodmobileservice,mobile_HTTP 5xx,Microsoft.Web/sites,Http5xx,HTTP 5xx,,Total,HTTP 5xx,yes,,50,GreaterThan,PT1M,PT5M,Count,,3
+mijobspreprodmobileservice,mobile_Memory Working Set,Microsoft.Web/sites,MemoryWorkingSet,Memory Working Set,B,Total,Total Memory,yes,,1610612736,GreaterThan,PT1M,PT5M,Count,,3

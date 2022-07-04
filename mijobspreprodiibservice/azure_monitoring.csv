@@ -1,0 +1,11 @@
+Target Name,Alert Name,Resource Type,Metric,Metric Display Name,Unit,Aggregation Type,Description,Enable for monitoring,Tag Name,Threshold,Operator,Eval Frequency,Window Size,Aggregation Time,Alert Description,Severity
+mijobspreprodiibservice,Avg Memory working set greater than 600 MB,Microsoft.Web/sites,MemoryWorkingSet,Memory Working Set,B,Average,Average Memory,yes,,600,GreaterThan,PT1M,PT5M,Count,,3
+mijobspreprodiibservice,biztalk_Average memory,Microsoft.Web/sites,AverageMemoryWorkingSet,Average Memory,B,Average,Average Memory,yes,,309715200,GreaterThan,PT1M,PT5M,Count,,3
+mijobspreprodiibservice,biztalk_Average Response Time,Microsoft.Web/sites,AverageResponseTime,Average Response Time,Seconds,Average,Average Response Time,yes,,10,GreaterThan,PT1M,PT5M,Count,,3
+mijobspreprodiibservice,biztalk_CPU Time,Microsoft.Web/sites,CpuTime,CPU Time,Seconds,Total,CPU Time,yes,,300,GreaterThan,PT1M,PT5M,Count,,3
+mijobspreprodiibservice,biztalk_Data In,Microsoft.Web/sites,BytesReceived,Data In,B,Total,BytesReceived,yes,,10485760,GreaterThan,PT1M,PT5M,Count,,3
+mijobspreprodiibservice,biztalk_Data Out,Microsoft.Web/sites,BytesSent,Data Out,B,Total,BytesSent,yes,,10485760,GreaterThan,PT1M,PT5M,Count,,3
+mijobspreprodiibservice,biztalk_HTTP 2xx,Microsoft.Web/sites,Http2xx,HTTP 2xx,,Total,HTTP 2xx,yes,,0,LessThanOrEqual,PT1M,PT5M,Count,,3
+mijobspreprodiibservice,biztalk_HTTP 4xx,Microsoft.Web/sites,Http4xx,HTTP 4xx,,Total,HTTP 4xx,yes,,50,GreaterThan,PT1M,PT5M,Count,,3
+mijobspreprodiibservice,biztalk_HTTP 5xx,Microsoft.Web/sites,Http5xx,HTTP 5xx,,Total,HTTP 5xx,yes,,50,GreaterThan,PT1M,PT5M,Count,,3
+mijobspreprodiibservice,biztalk_Memory Working Set,Microsoft.Web/sites,MemoryWorkingSet,Memory Working Set,B,Total,Total Memory,yes,,1610612736,GreaterThan,PT1M,PT5M,Count,,3
